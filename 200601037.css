@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #3d4e6e;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #3d4e6e;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #3d4e6e;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #3d4e6e;
+	color: #3d4e6e;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.message {
+	float: none;
+}
+
+.adSoyad {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telefon {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #3d4e6e;
+}
+
+:-moz-placeholder { 
+	color: #3d4e6e;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #3d4e6e;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #3d4e6e;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #3d4e6e;
+  color: #3d4e6e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #3d4e6e;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    color:  #163962;
+    font-family: 'Noto Serif', serif;
+    line-height: 1.5;
+  }
+  
+  body {
+    padding: 2rem 2.5rem;
+      background: linear-gradient(45deg, rgb(83, 79, 82), #974e4e,#92554d, #4c9286 , #5481a7,#653a74, #33358a );
+      background-size: 600% 100%;
+      animation: gradient 10s linear infinite;
+      animation-direction: alternate;
+  }
+  @keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+  h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:  #163962;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  section + section {
+    margin-top: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+
+  .cv img {
+    border-radius: 8000px;
+    width: 16rem;
+    height: 16rem
+    
+  }
+
+  .fotograf{
+    text-align: center;
+  }
+
+  .sosyalMedya ul {
+    margin-top: -2rem;
+  }
+  
+  .sosyalMedya li {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: rgb(39, 64, 206);
+    border-bottom: 1px solid #888;
+    font-size: 0.8rem;
+    list-style: none;
+  }
+  
+  .beceriler > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    list-style: none;
+  }
+  
+  .timeline .event + .event {
+    padding-top: 1rem;
+  }
+  
+  .timeline .event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+  }
+  
+  .timeline .content {
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .content > h3 + p {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .cv {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 4rem;
+    background-color: rgb(230, 220, 220);
+    padding: 3rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #474544;
+    padding: 20px;
+  }
+
+.projeler b{
+  color: rgb(39, 64, 206);
+}
